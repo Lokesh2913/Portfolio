@@ -1,0 +1,30 @@
+.container.contact__contatainer{
+    width: 50%;
+}
+
+form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input,textarea{
+    width: 80%;
+    padding:2rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+}
+
+/*================Media queries (medium devices like tablet)===========*/
+  
+  
+  /*================Media queries (medium devices like tablet)===========*/
+  @media  screen and (max-width:600px) {
+      .container.contact__contatainer{
+        width: var(--container-width-sm);
+      }
+}
